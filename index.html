@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+    </div>
+    <div class="container">
+        <div class="select_Head">
+            <h2>Wurzel-Quadrat</h2>
+            <select name="operation" id="operation" oninput="myFunction()">
+                <option value="wurzel">Wurzel</option>
+                <option value="quadrat">Quadrat</option>
+               
+            </select>
+            <input id="inputNumber" type="number" placeholder="Wert eintragen" oninput="myFunction()" >
+            <button id="send">Ausgabe</button> 
+            <p id="result1"></p>
+            <p id="result2"></p>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
